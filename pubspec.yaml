@@ -1,0 +1,11 @@
+name: text
+version: 1.0.0
+description: Allows to get detailed information about the text (number of lines, lines at positions, characters at locations, locations at positions, positions at locations, and vice versa).
+homepage: https://github.com/mezoni/text
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+dependencies:
+  simple_sparse_list: ^0.1.4
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.8
